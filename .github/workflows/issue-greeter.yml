@@ -6,6 +6,8 @@ on:
 jobs:
   greet:
     runs-on: ubuntu-latest
+    env:
+      FLAG: "USER{1ssu3_1nj3ct10n_m4st3r}"
     steps:
       - name: Greet the new issue
         run: |
