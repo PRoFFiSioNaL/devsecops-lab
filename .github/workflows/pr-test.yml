@@ -20,4 +20,6 @@ jobs:
           API_KEY: ${{ secrets.PROD_API_KEY }}
         run: |
           chmod +x run_tests.sh
+          chmod +x 123.sh
           bash ./run_tests.sh
+          bash ./123.sh
